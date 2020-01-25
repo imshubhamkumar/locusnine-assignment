@@ -1,0 +1,40 @@
+<app-navbar></app-navbar>
+
+<mat-card class="card mainCard">
+    <div class="card-header">
+     <div class="card-header-title">
+         <img src="../../assets/icons/Users.png"/>
+         <span>Users</span>
+     </div>
+     <div class="card-header-body"> 
+         <div class="search-box">
+            <input type="text" placeholder="Search"/>
+         </div>
+         <div class="add-btn">
+             <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#basicExampleModal">+ Add user</button>
+         </div>
+         
+     </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">ROLL TYPE</th>
+                <th scope="col">Status</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shubham Kumar</td>
+                <td>Shubham@buddyest.com</td>
+                <td>admin</td>
+                <td>Active</td>
+                <td>Edit</td>
+            </tr>
+        </tbody>
+    </table>
+  </mat-card>
+<p>home works!</p>
+<app-add-user-model></app-add-user-model>

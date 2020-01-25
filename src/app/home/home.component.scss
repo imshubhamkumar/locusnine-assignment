@@ -1,0 +1,55 @@
+.mainCard{
+    display: flex; 
+    margin: 2rem;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.card-header{
+    background-color: #ffffff;
+}
+
+.card-header-title, .card-header-body{
+    display: inline;
+}
+
+.card-header-body{
+    float: right;
+}
+
+.search-box> img{
+    margin-right: 0.5rem;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-image: url("../../assets/icons/search_header.png");
+  background-repeat: no-repeat;
+  background-position:190px 12px;
+  background-color: white;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+}
+.search-box, .add-btn {
+    display: inline;
+}
+
+.add-btn{
+    margin-left: 2rem;
+}
+.btn {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 0.5rem;
+}
+
+.card-header-title> span{
+    margin-left: 0.5rem;
+    font-size: 30px;
+    color: #55514f;
+}
+.mat-drawer-content{
+    background-color: #060a31;
+}
