@@ -19,18 +19,17 @@
     <table class="table">
         <thead>
             <tr>
-                <th scope="col">Name</th>
-                <th scope="col">Email</th>
-                <th scope="col">ROLL TYPE</th>
-                <th scope="col">Status</th>
+                <th *ngFor="let head of headElements; let i = index" scope="col">{{head}}
+                    </th
+                    >
               </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Shubham Kumar</td>
-                <td>Shubham@buddyest.com</td>
-                <td>admin</td>
-                <td>Active</td>
+            <tr *ngFor="let user of userDetails; let i = index">
+                <td>{{user["name"]}}</td>
+                <td>{{user["email"]}}</td>
+                <td>{{user["type"]}}</td>
+                <td>{{user["status"]}}</td>
                 <td>Edit</td>
             </tr>
         </tbody>

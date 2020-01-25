@@ -6,6 +6,7 @@ import { HomeModule } from './home/home.module';
 import { AppRoutingModule } from './app-routing.module';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { MaterialModule} from './matrial.module';
+import { HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent
@@ -15,7 +16,8 @@ import { MaterialModule} from './matrial.module';
     HomeModule,
     AppRoutingModule,
     MDBBootstrapModule.forRoot(),
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

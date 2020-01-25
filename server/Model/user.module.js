@@ -14,6 +14,9 @@ const UserSchema = new Schema({
         type: String,
         required: true
     },
+    status:{
+        type: String
+    },
    phone:{
        type: Number
    }

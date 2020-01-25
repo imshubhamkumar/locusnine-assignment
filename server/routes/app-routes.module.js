@@ -17,6 +17,7 @@ const router = express.Router();
       name: req.body.name,
       email: req.body.email,
       type: req.body.type,
+      staus: req.body.status,
       phone: req.body.phone,
     });
   
